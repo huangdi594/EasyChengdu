@@ -15,6 +15,9 @@
 		9992A6511C8D58EB00A15C74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9992A64F1C8D58EB00A15C74 /* LaunchScreen.storyboard */; };
 		9992A65C1C8D58EC00A15C74 /* LineDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9992A65B1C8D58EC00A15C74 /* LineDemoTests.m */; };
 		9992A6671C8D58EC00A15C74 /* LineDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9992A6661C8D58EC00A15C74 /* LineDemoUITests.m */; };
+		9992A6791C8D5EBF00A15C74 /* XHGraphsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9992A6781C8D5EBF00A15C74 /* XHGraphsView.m */; };
+		9992A67C1C8D6FBB00A15C74 /* XHGraphsMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9992A67B1C8D6FBB00A15C74 /* XHGraphsMainView.m */; };
+		9992A67E1C8D6FD300A15C74 /* XHGraphsMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9992A67D1C8D6FD300A15C74 /* XHGraphsMainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		9992A6621C8D58EC00A15C74 /* LineDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9992A6661C8D58EC00A15C74 /* LineDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineDemoUITests.m; sourceTree = "<group>"; };
 		9992A6681C8D58EC00A15C74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9992A6771C8D5EBF00A15C74 /* XHGraphsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGraphsView.h; sourceTree = "<group>"; };
+		9992A6781C8D5EBF00A15C74 /* XHGraphsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGraphsView.m; sourceTree = "<group>"; };
+		9992A67A1C8D6FBB00A15C74 /* XHGraphsMainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHGraphsMainView.h; sourceTree = "<group>"; };
+		9992A67B1C8D6FBB00A15C74 /* XHGraphsMainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHGraphsMainView.m; sourceTree = "<group>"; };
+		9992A67D1C8D6FD300A15C74 /* XHGraphsMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XHGraphsMainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,11 @@
 			children = (
 				9992A6441C8D58EB00A15C74 /* AppDelegate.h */,
 				9992A6451C8D58EB00A15C74 /* AppDelegate.m */,
+				9992A6771C8D5EBF00A15C74 /* XHGraphsView.h */,
+				9992A6781C8D5EBF00A15C74 /* XHGraphsView.m */,
+				9992A67A1C8D6FBB00A15C74 /* XHGraphsMainView.h */,
+				9992A67B1C8D6FBB00A15C74 /* XHGraphsMainView.m */,
+				9992A67D1C8D6FD300A15C74 /* XHGraphsMainView.xib */,
 				9992A6471C8D58EB00A15C74 /* ViewController.h */,
 				9992A6481C8D58EB00A15C74 /* ViewController.m */,
 				9992A64A1C8D58EB00A15C74 /* Main.storyboard */,
@@ -245,6 +258,7 @@
 			files = (
 				9992A6511C8D58EB00A15C74 /* LaunchScreen.storyboard in Resources */,
 				9992A64E1C8D58EB00A15C74 /* Assets.xcassets in Resources */,
+				9992A67E1C8D6FD300A15C74 /* XHGraphsMainView.xib in Resources */,
 				9992A64C1C8D58EB00A15C74 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,7 +286,9 @@
 			files = (
 				9992A6491C8D58EB00A15C74 /* ViewController.m in Sources */,
 				9992A6461C8D58EB00A15C74 /* AppDelegate.m in Sources */,
+				9992A67C1C8D6FBB00A15C74 /* XHGraphsMainView.m in Sources */,
 				9992A6431C8D58EB00A15C74 /* main.m in Sources */,
+				9992A6791C8D5EBF00A15C74 /* XHGraphsView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
